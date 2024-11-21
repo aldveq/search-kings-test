@@ -2,21 +2,181 @@
 	HEADER STYLES 
 */
 
+.hvac-header-wrapper__top-nav-wrapper {
+	padding: 66px 0 36px;
+}
+
+.hvac-header-wrapper__top-nav-wrapper .navbar-brand img {
+	display    : block;
+	width      : 100%;
+	height     : auto;
+	margin-left: 6px;
+	margin-top : -6px;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .navbar-toggler {
+	background-color: var(--primary-color);
+	margin-left     : 14px;
+	width           : 45px;
+	height          : 45px;
+	border-radius   : 10px;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .navbar-toggler .navbar-toggler-icon {
+	color     : var(--white-color);
+	font-size : 32px;
+	width     : 100%;
+	height    : 100%;
+	background: unset;
+	display   : block;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta {
+	text-decoration: none;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta:nth-child(2) {
+	margin-left: 79px;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta.cta-simple {
+	margin-left: 57px;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta-simple {
+	font-size       : 17px;
+	text-transform  : uppercase;
+	color           : var(--black-color);
+	letter-spacing  : 0;
+	background-color: var(--secondary-color);
+	padding         : 13px 12px 10px 17px;
+	line-height     : 27px;
+	text-align      : center;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta .icon {
+	width        : 45px;
+	height       : 45px;
+	border       : 2px solid var(--black-color);
+	border-radius: 50%;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta .icon i {
+	font-size: 22px;
+	color    : var(--primary-color);
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta .titles-wrapper {
+	margin-left: 8px;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta .titles-wrapper .title {
+	margin-top: 3px;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta .titles-wrapper .title,
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta .titles-wrapper .sub-title {
+	font-size     : 23px;
+	color         : var(--black-color);
+	line-height   : 27px;
+	letter-spacing: 0;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta .titles-wrapper .sub-title {
+	font-size: 16px;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta:nth-child(2) .titles-wrapper .title {
+	font-size : 16px;
+	margin-top: 0;
+}
+
+.hvac-header-wrapper__top-nav-contact-info-wrapper .cta:nth-child(2) .titles-wrapper .sub-title {
+	font-size : 24px;
+	margin-top: -2px;
+}
+
 .hvac-header-wrapper .navbar {
 	background-color: var(--primary-color);
+	padding         : 4px 0;
+}
+
+.hvac-header-wrapper .navbar .navbar-nav {
+	margin-left: 56px;
+}
+
+.hvac-header-wrapper .navbar .navbar-nav .nav-item {
+	margin-left: -43px;
 }
 
 .hvac-header-wrapper .navbar .navbar-nav .nav-item .nav-link {
-	color    : var(--white-color);
-	font-size: 16px;
+	color        : var(--white-color);
+	font-size    : 16px;
+	padding-left : 0;
+	padding-right: 0;
+}
+
+.hvac-header-wrapper .navbar .navbar-nav .nav-item .nav-link.nav-link-icon i {
+	font-size: 30px;
+}
+
+.hvac-header-wrapper .navbar .navbar-nav .nav-item .nav-link.nav-link-icon {
+	position: relative;
+}
+
+.hvac-header-wrapper .navbar .navbar-nav .nav-item .nav-link.nav-link-icon::before {
+	content         : '';
+	width           : 10px;
+	height          : 10px;
+	border-radius   : 50%;
+	background-color: var(--secondary-color);
+	position        : absolute;
+	top             : 10px;
+	right           : 6px;
 }
 
 /*
 	MEDIA QUERIES
 */
 
+@media only screen and (max-width: 1200px) {
+
+	.hvac-header-wrapper__top-nav-contact-info-wrapper .cta.cta-simple {
+		margin-left: 22px;
+	}
+
+	.hvac-header-wrapper__top-nav-contact-info-wrapper .cta:nth-child(2) {
+		margin-left: 14px;
+	}
+}
+
 @media only screen and (max-width: 992px) {
 	.hvac-header-wrapper .navbar {
 		--bs-navbar-padding-y: 0;
+		padding              : 0;
+	}
+
+	.hvac-header-wrapper .navbar .navbar-nav {
+		padding: 12px 0;
+	}
+
+	.hvac-header-wrapper .navbar .navbar-nav,
+	.hvac-header-wrapper .navbar .navbar-nav .nav-item {
+		margin-left: 0;
+	}
+
+	.hvac-header-wrapper .navbar .navbar-nav .nav-item .nav-link.nav-link-icon {
+		display     : table;
+		margin-right: auto;
 	}
 }
+
+@media only screen and (max-width: 576px) {
+	.hvac-header-wrapper__top-nav-contact-info-wrapper {
+		margin-left: 20px;
+	}
+}
+
+/*
+	END - HEADER STYLES 
+*/

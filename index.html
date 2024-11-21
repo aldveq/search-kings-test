@@ -13,6 +13,7 @@
   <link rel="preload" href="assets/fonts/Red_Hat_Display/RedHatDisplay-ExtraBold.woff2" as="font" type="font/woff2">
   <link rel="preload" href="assets/fonts/Albert_Sans/AlbertSans-Regular.woff2" as="font" type="font/woff2">
   <link rel="preload" href="assets/fonts/Albert_Sans/AlbertSans-Bold.woff2" as="font" type="font/woff2">
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/typography.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -21,17 +22,51 @@
   <!-- Good Luck! -->
 	<header class="hvac-header-wrapper">
 		<div class="hvac-header-wrapper__top-nav-wrapper">
-			<div class="container">
-				<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+			<div class="container d-flex justify-content-between align-items-center">
+				<a class="navbar-brand" href="#">
+					<img 
+						src="assets/images/hvac-brand-logo.webp" 
+						alt="HVAC Brand Logo"
+						width="281"
+						height="80"
+						loading="lazy"
+					>
+				</a>
+
+				<div class="hvac-header-wrapper__top-nav-contact-info-wrapper d-flex align-items-center align-items-lg-baseline">
+					<a href="#" class="cta d-flex align-items-center">
+						<span class="icon d-flex justify-content-center align-items-center">
+							<i class="material-icons">pin_drop</i>
+						</span>
+						<div class="titles-wrapper d-none d-xl-flex flex-column">
+							<span class="title albert-sans-bold">Location</span>
+							<span class="sub-title albert-sans-bold">Subline</span>
+						</div>
+					</a>
+
+					<a href="#" class="cta d-flex align-items-center">
+						<span class="icon d-flex justify-content-center align-items-center">
+							<i class="material-icons">call</i>
+						</span>
+						<div class="titles-wrapper d-none d-xl-flex flex-column">
+							<span class="title albert-sans-bold">Call Us Now</span>
+							<span class="sub-title albert-sans-bold">555-555-5555</span>
+						</div>
+					</a>
+					
+					<a href="#" class="cta cta-simple red-hat-display-bold d-none d-lg-block">24/7 Emergency Service</a>
+
+					<button class="navbar-toggler d-flex justify-content-center align-items-center d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon">&#x2630</span>
+					</button>
+				</div>
 			</div>
 		</div>
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav w-100 justify-content-lg-between">
-						<li class="nav-item dropdown">
+						<li class="nav-item dropdown d-lg-flex justify-content-lg-center align-items-lg-center">
 							<a class="nav-link albert-sans-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Shop Now
 							</a>
@@ -41,16 +76,23 @@
 								<li><a class="dropdown-item albert-sans-bold" href="#">Item #3</a></li>
 							</ul>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link albert-sans-bold" href="#">HVAC Repairs</a>
+						<li class="nav-item dropdown d-lg-flex justify-content-lg-center align-items-lg-center">
+							<a class="nav-link albert-sans-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								HVAC Repairs
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item albert-sans-bold" href="#">Item #1</a></li>
+								<li><a class="dropdown-item albert-sans-bold" href="#">Item #2</a></li>
+								<li><a class="dropdown-item albert-sans-bold" href="#">Item #3</a></li>
+							</ul>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item d-lg-flex justify-content-lg-center align-items-lg-center">
 							<a class="nav-link albert-sans-bold" href="#">Installations</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item d-lg-flex justify-content-lg-center align-items-lg-center">
 							<a class="nav-link albert-sans-bold" href="#">Promotions</a>
 						</li>
-						<li class="nav-item dropdown">
+						<li class="nav-item dropdown d-lg-flex justify-content-lg-center align-items-lg-center">
 							<a class="nav-link albert-sans-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								About Us
 							</a>
@@ -60,11 +102,11 @@
 								<li><a class="dropdown-item albert-sans-bold" href="#">Item #3</a></li>
 							</ul>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item d-lg-flex justify-content-lg-center align-items-lg-center">
 							<a class="nav-link albert-sans-bold" href="#">Contact Us</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">
+						<li class="nav-item d-lg-flex justify-content-lg-center align-items-lg-center">
+							<a class="nav-link nav-link-icon" href="#">
 								<i class="material-icons">shopping_cart</i>
 							</a>
 						</li>
