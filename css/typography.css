@@ -1,0 +1,75 @@
+/*
+  Fonts
+*/
+
+/*Red Hat Display Font Face Regular*/
+@font-face {
+	font-family : 'Red Hat Display Regular';
+	src         : url('../assets/fonts/Red_Hat_Display/RedHatDisplay-Regular.woff2') format('woff2');
+	font-weight : 400;
+	font-style  : normal;
+	font-display: swap;
+}
+
+/*Red Hat Display Font Face Bold*/
+@font-face {
+	font-family : 'Red Hat Display Bold';
+	src         : url('../assets/fonts/Red_Hat_Display/RedHatDisplay-Bold.woff2') format('woff2');
+	font-weight : 700;
+	font-style  : normal;
+	font-display: swap;
+}
+
+/*Red Hat Display Font Face Extra Bold*/
+@font-face {
+	font-family : 'Red Hat Display Extra Bold';
+	src         : url('../assets/fonts/Red_Hat_Display/RedHatDisplay-ExtraBold.woff2') format('woff2');
+	font-weight : 900;
+	font-style  : normal;
+	font-display: swap;
+}
+
+/*Albert Sans Font Face Regular*/
+@font-face {
+	font-family : 'Albert Sans Regular';
+	src         : url('../assets/fonts/Albert_Sans/AlbertSans-Regular.woff2') format('woff2');
+	font-weight : 400;
+	font-style  : normal;
+	font-display: swap;
+}
+
+/*Albert Sans Font Face Bold*/
+@font-face {
+	font-family : 'Albert Sans Bold';
+	src         : url('../assets/fonts/Albert_Sans/AlbertSans-Bold.woff2') format('woff2');
+	font-weight : 700;
+	font-style  : normal;
+	font-display: swap;
+}
+
+/*Red Hay Display Fonts*/
+.red-hat-display-regular {
+	font-family: 'Red Hat Display Regular';
+	font-weight: 400;
+}
+
+.red-hat-display-bold {
+	font-family: 'Red Hat Display Bold';
+	font-weight: 700;
+}
+
+.red-hat-display-extra-bold {
+	font-family: 'Red Hat Display Extra Bold';
+	font-weight: 900;
+}
+
+/*Albert Sans Fonts*/
+.albert-sans-regular {
+	font-family: 'Albert Sans Regular';
+	font-weight: 400;
+}
+
+.albert-sans-bold {
+	font-family: 'Albert Sans Bold';
+	font-weight: 700;
+}
