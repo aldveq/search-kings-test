@@ -184,3 +184,106 @@
 /*
 	END - HEADER STYLES 
 */
+
+/*
+	SECTIONS
+*/
+
+/*
+	HERO
+*/
+
+.hero-wrapper {
+	padding            : 114px 0 160px;
+	background-image   : url(../assets/images/trane-technician.webp);
+	background-repeat  : no-repeat;
+	background-position: center;
+	background-size    : cover;
+	max-height         : 686px;
+}
+
+.hero-wrapper__content-wrapper {
+	margin-bottom: 16px;
+	padding-left : 57px;
+}
+
+.hero-wrapper__content-wrapper h3,
+.hero-wrapper__content-wrapper h1 {
+	text-align: center;
+}
+
+.hero-wrapper__content-wrapper h3,
+.hero-wrapper__content-wrapper h1,
+.hero-wrapper__content-wrapper ul li {
+	color: var(--white-color);
+}
+
+.hero-wrapper__content-wrapper h3 {
+	font-size    : 30px;
+	margin-bottom: 10px;
+}
+
+.hero-wrapper__content-wrapper h1 {
+	font-size     : 60px;
+	margin-bottom : 17px;
+	max-width     : 760px;
+	line-height   : 65px;
+	letter-spacing: 1px;
+}
+
+.hero-wrapper__content-wrapper ul {
+	padding: 0;
+}
+
+.hero-wrapper__content-wrapper ul li {
+	list-style  : none;
+	font-size   : 21.84px;
+	margin-top  : -2px;
+	padding-left: 9px;
+}
+
+.hero-wrapper__content-wrapper ul li i {
+	color       : var(--secondary-color);
+	font-size   : 40px;
+	margin-right: 5px;
+}
+
+.hero-wrapper__cta-wrapper a {
+	background-color: var(--secondary-color);
+	color           : var(--black-color);
+	font-size       : 23.51px;
+	border-radius   : 10px;
+	text-decoration : none;
+	padding         : 11px 74px;
+	text-align      : center;
+	margin-left     : 61px;
+}
+
+@media only screen and (max-width: 992px) {
+	.hero-wrapper__content-wrapper {
+		padding-left: 0;
+	}
+
+	.hero-wrapper__cta-wrapper a {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.hero-wrapper {
+		max-height: fit-content;
+	}
+
+	.hero-wrapper__cta-wrapper a {
+		padding: 11px 14px;
+	}
+}
+
+/*
+	END - HERO
+*/
+
+
+/*
+	END - SECTIONS
+*/
