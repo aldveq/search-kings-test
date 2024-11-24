@@ -279,6 +279,16 @@
 	}
 }
 
+@media only screen and (min-width: 1400px) {
+	.hero-wrapper__content-wrapper {
+		padding-left: 0;
+	}
+
+	.hero-wrapper__cta-wrapper a {
+		margin-left: 0;
+	}
+}
+
 /*
 	END - HERO
 */
