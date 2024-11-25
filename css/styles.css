@@ -11,7 +11,7 @@
 	width      : 100%;
 	height     : auto;
 	margin-left: 6px;
-	margin-top : -6px;
+	margin-top : -11px;
 }
 
 .hvac-header-wrapper__top-nav-contact-info-wrapper .navbar-toggler {
@@ -371,7 +371,7 @@
 	line-height   : 25px;
 	letter-spacing: 0.2px;
 	color         : var(--white-color);
-	margin-top    : -5px;
+	margin-top    : -3px;
 }
 
 .services-right-content-wrapper p .disclaimer-top,
