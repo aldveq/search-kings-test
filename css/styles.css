@@ -676,5 +676,90 @@
 */
 
 /*
+	BRANCH LOCATOR
+*/
+
+.branch-locator-wrapper {
+	padding: 53px 0 34px;
+}
+
+.branch-locator-title {
+	font-size    : 60px;
+	color        : var(--black-color);
+	margin-bottom: 40px;
+	margin-left  : 11px;
+}
+
+.branch-locator-nav {
+	padding: 0;
+	margin : 0;
+}
+
+.branch-locator-nav li {
+	list-style      : none;
+	padding         : 38px 68px;
+	background-color: var(--fourth-color);
+	margin-bottom   : 25px;
+	border-radius   : 10px;
+	cursor          : pointer;
+}
+
+.branch-locator-nav li:last-child {
+	margin-bottom: 0;
+}
+
+.branch-locator-nav li.active {
+	background-color: var(--primary-color);
+}
+
+.branch-locator-nav li p {
+	font-size     : 18px;
+	line-height   : 132.5%;
+	letter-spacing: 0;
+	color         : var(--white-color);
+	text-align    : center;
+	color         : var(--black-color);
+	font-family   : 'Albert Sans Regular';
+	font-weight   : 400;
+	margin-bottom : 0;
+	margin-left   : 17px;
+}
+
+.branch-locator-nav li.active p {
+	color      : var(--white-color);
+	font-family: 'Albert Sans Bold';
+	font-weight: 700;
+}
+
+.branch-locator-wrapper iframe {
+	border-radius: 10px;
+	min-height   : 403px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.branch-locator-nav li {
+		padding: 38px 24px;
+	}
+
+	.branch-locator-nav li p {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.branch-locator-nav {
+		margin-bottom: 30px;
+	}
+
+	.branch-locator-nav li {
+		margin-bottom: 16px;
+	}
+}
+
+/*
+	END - BRANCH LOCATOR
+*/
+
+/*
 	END - SECTIONS
 */
