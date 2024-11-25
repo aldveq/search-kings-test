@@ -793,5 +793,37 @@
 */
 
 /*
+	FOOTER
+*/
+
+.floating-icons {
+	position: fixed;
+	right   : 5%;
+	bottom  : 1%;
+}
+
+.floating-icons .float-icon {
+	display         : block;
+	width           : 80px;
+	height          : 80px;
+	background-color: var(--secondary-color);
+	border-radius   : 50%;
+}
+
+.floating-icons .float-icon a {
+	width : 58px;
+	height: 58px;
+}
+
+.floating-icons .float-icon i {
+	font-size: 58px;
+	color    : var(--white-color);
+}
+
+/*
+	END - FOOTER
+*/
+
+/*
 	END - SECTIONS
 */
